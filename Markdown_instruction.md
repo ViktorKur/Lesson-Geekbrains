@@ -59,7 +59,8 @@
 
 * Разрывы строк внутри слов в любой ячейке таблицы
 Длинные слова в таблице Markdown могут привести к тому, что таблица сдвинется вправо и станет нечитаемой. Эту проблему можно решить, разрешив отрисовке на сайте документации автоматически вставлять разрывы строк внутри слов при необходимости. Нужно просто заключить таблицу в настраиваемый класс **[!div class="mx-tdBreakAll"]**.
-> [!div class="mx-tdBreakAll"]
+
+[!div class="mx-tdBreakAll"]
 > |Name|Syntax|Mandatory for silent installation?|Description|
 > |-------------|----------|---------|---------|
 > |Quiet|/quiet|Yes|Runs the installer, displaying no UI and no prompts.|
